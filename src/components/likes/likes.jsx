@@ -1,9 +1,9 @@
 import React from 'react'
 
-const likes = () => {
+const Likes = () => {
   return (
-    <div>likes</div>
+    <div>This is Like Page</div>
   )
 }
 
-export default likes
+export default Likes

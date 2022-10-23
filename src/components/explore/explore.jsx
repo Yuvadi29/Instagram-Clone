@@ -1,9 +1,9 @@
 import React from 'react'
 
-const explore = () => {
+const Explore = () => {
   return (
-    <div>explore</div>
+    <div>Explore</div>
   )
 }
 
-export default explore
+export default Explore
