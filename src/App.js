@@ -6,11 +6,13 @@ import Profile from './components/profile/profile';
 import Messages from './components/messages/messages';
 import Likes from './components/likes/likes';
 import Explore from './components/explore/explore';
+import Navbar from './components/navbar/navbar';
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+      <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/stories' element={<Stories />} />
