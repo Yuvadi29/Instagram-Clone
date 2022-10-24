@@ -29,7 +29,8 @@
     padding: 0px 0px 0px 18px;
   }
   .icons {
-    width: 300px;
+    width: 200px;
+    height: 50px;
     display: flex;
     justify-content: space-evenly;
   }
@@ -37,7 +38,7 @@
   .search{
     border: 1px solid #dbdbdb; 
     background-color: #fafafa; 
-    height: 20.5px;
+    height: 28.5px;
     width: 20.5rem ;
     border-radius: 3.5px;
     padding-left: 25px;

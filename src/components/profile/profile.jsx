@@ -1,5 +1,7 @@
 import React from 'react';
 import './profile.css';
+import '../../media/jamesbond.png';
+
 
 const Profile = () => {
 
@@ -25,13 +27,13 @@ posts.forEach(post => {
 
             <div class="profile-image">
 
-              <img src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces" alt=""/>
+              <img src="./media/jamesbond.png" alt="Jamesbondimg"/>
 
             </div>
 
             <div class="profile-user-settings">
 
-              <h1 class="profile-user-name">janedoe_</h1>
+              <h1 class="profile-user-name">jamesbond007</h1>
 
               <button class="btn profile-edit-btn">Edit Profile</button>
 
@@ -51,7 +53,7 @@ posts.forEach(post => {
 
             <div class="profile-bio">
 
-              <p><span class="profile-real-name">Jane Doe</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️</p>
+              <p><span class="profile-real-name">James Bond</span><br /> I am Bond, James Bond 007 📷✈️🏕️</p>
 
             </div>
 
