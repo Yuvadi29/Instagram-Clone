@@ -1,0 +1,93 @@
+
+    <!--Header section-->
+
+    <header class="web-container">
+        <div id="web" class="web-logo">
+            <img id="logo" src="./img/logo.png" alt="Instagram logo">
+        </div>
+        <div id="web" class="web-search">
+            <input id="search-bar" type="text" placeholder="Search">
+        </div>
+
+    <!--Top row of app-->
+        <div id="app" class="header-top">
+            <div class="header-left">
+                <i class="fas fa-search"></i>
+                <input id="search-bar" type="text" placeholder="Search">
+            </div>
+            <div class="header-right">
+                <i class="fas fa-home scan"></i>
+            </div>
+        </div>
+
+    <!--Header buttons for web-->
+        <div id="web" class="web-buttons">
+            <button id="login-button" class="web-button">Log In</button>
+            <button id="signup-button" class="web-button">Sign Up</button>
+        </div>
+    </header>
+
+    <!--Sticky bottom header for app-->
+    <div id="app" class="header-bottom">
+        <button class="nav-button">IGTV</button>
+        <button class="nav-button"><i class="fas fa-shopping-bag"></i>Shopping</button>
+        <button class="nav-button">Fashion</button>
+        <button class="nav-button">Design</button>
+    </div>
+
+    <!--This section break is used for the border line-->
+
+    <section id="web" class="section-break"></section>
+
+    <!--Main section contains the images-->
+
+    <main class="background">
+
+        <!--Web container aligns image items to the center-->
+        <div class="web-container">
+            <h4 id="web" class="feed-heading">Top Posts</h4>
+
+            <!--Reels is a feature only available on the app hence it has an id of app-->
+            <div id="app" class="reels">
+                <video src="./vid/reels.mp4" controls autoplay></video>
+                
+            </div>
+
+            <!--Pics only is a grid of images and is available on both app and web-->
+            <div class="pics-only">
+                    <img class="image" src="./img/feed1.jpg" alt="">                                
+                    <img class="image" src="./img/feed10.jpg" alt="">
+                    <img class="image" src="./img/feed11.jpg" alt="">               
+                    <img class="image" src="./img/feed12.jpg" alt="">
+                    <img class="image" src="./img/feed13.jpg" alt="">
+                    <img class="image" src="./img/feed14.jpg" alt="">
+            </div>
+            <h4 id="web" class="feed-heading">Most Recent</h4>
+
+            <!--PV container is the picture and video grid with 2 images and a video-->
+            <div id="app" class="pv-container">
+                <img class="image top-pv-image" src="./img/feed6.jpg" alt="">   
+                <img class="image bottom-pv-image" src="./img/feed7.jpg" alt="">       
+                <video class="pv-video video" src="./vid/video.mp4" controls></video>
+            </div>
+
+            <div class="pics-only">
+                    <img class="image" src="./img/feed15.jpg" alt="">
+                    <img class="image" src="./img/feed16.jpg" alt="">
+                    <img class="image" src="./img/feed2.jpg" alt="">
+                    <img class="image" src="./img/feed3.jpg" alt="">
+                    <img class="image" src="./img/feed4.jpg" alt="">
+                    <img class="image" src="./img/feed5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--The footer section is only available on the app and it contains an image to simulate a logged in account-->
+    <footer id="app">
+        <i class="fas fa-home"></i>
+        <i class="fas footer-search fa-search"></i>
+        <i class="far fa-plus-square"></i>
+        <i class="far fa-heart"></i>
+        <img class="user" src="./img/user.jpg" alt="user">
+    </footer>
