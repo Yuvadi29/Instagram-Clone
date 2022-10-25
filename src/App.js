@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/home/home';
+import Home from './components/home/Homepage/Homepage.js';
 import Stories from './components/stories/stories';
 import Profile from './components/profile/profile';
 import Messages from './components/messages/messages';
