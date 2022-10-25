@@ -1,0 +1,32 @@
+.Navbar_content{
+    height: 59px;    
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+.instalogo{
+    height: 43px;
+    width: 108px;
+    margin-top: 12px;
+}
+.nav_icon_element{ 
+  margin-left: 15px;
+    
+} 
+.navbar_icons{
+    margin-top: 15px;
+
+}
+.nav_input{
+    background-color: #edeaeac9;
+    border-radius: 3px;
+    width: 16rem;
+    height: 2.1rem;
+    border-style: none;
+    display: flex;
+    /* font-family: serif; */
+    flex-direction: column;
+    /* text-align: center; */
+    font-size: 15px;
+    margin: 13px -71px;
+    border: 1px solid #dbdbdb;
+}
