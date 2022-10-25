@@ -1,0 +1,107 @@
+.post_container{
+    /* height: 859pxs; */
+    width: 470px;
+    border: 2px solid #dbdbdb;
+    margin-top: 20px ;
+    border-radius: 7px;
+}
+
+
+.post_header{
+    height: 56px;
+    width: 470px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+}
+.post_icon{
+    margin: 10px 0px 0px 5px;
+
+}
+.post_account_name{
+    text-align: center;
+    margin: 20px 0px 0px 7px;
+    font-size: .9rem;
+    
+}
+
+.post_moreoption{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: none;
+    margin: 20px 0px 0px 280px;
+}
+.post_img{
+    height: auto;
+    /* width: auto; */
+    width: 470px;
+}
+.post_like_data{
+    display: flex;
+}
+
+.post_account_commeneted{
+    margin: 4px 1px 0px 0px ;
+
+
+}
+.commented_account{
+    text-align: center;
+    font-size: 13px;
+    
+}
+.post_commented_account{
+    margin: 10px 0px 0px 5px;
+}
+.post_like_icons{
+    display: flex;   
+    margin: 0px 20px 0px 0px;
+    /* 
+    
+    margin: 0px 0px 0px 10px;
+    margin-bottom: 15px;
+    width: 15px; */
+    
+}
+.post_like_icons:hover{
+    cursor: pointer;
+}
+.like_icon{
+
+    width: 25px ;
+    margin: 5px;
+
+}
+
+.commentinput{
+
+   width: 470px;
+    height: 33px;
+    border: 0.5px solid #dbdbdb;
+    border-radius: 0px 0px 7px 7px;
+    
+
+}
+input{
+    text-indent: 10px;
+
+}
+.comment_account{
+    
+    font-size: 13px;
+    opacity: 80%;
+}
+.commentslist{
+    margin: 0px 0px 0px 20px;
+    display: flex;
+}
+.comment{
+    font-size: 13px;
+    margin: 0px 0px 0px 5px;
+    opacity: 60%;
+}
+
+.nav_icon_element{ 
+    margin-left: 15px;
+      
+  } 
