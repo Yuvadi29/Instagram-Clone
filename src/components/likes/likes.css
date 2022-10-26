@@ -1,8 +1,8 @@
 #place{
     margin-top:60px;
-    margin-left: 385px;
+    margin-left: 400px;
     border: 2px solid black;
-    width: 555px;
+    width: 500px;
 }
 
 .maintitle{
@@ -12,7 +12,26 @@
 
 .singlenoti{
     display: flex;
-    border: 2px solid lightgray;
+    /* border: 2px solid lightgray; */
+    width: 480px;
+}
+
+.profileholder{    
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid black; */
+    height: 60px;
+    margin-top: 5px;
+}
+
+.profile{
+    padding: 0;
+    width: 45px;
+    margin: 0;
+    height: 43px;
+    border-radius: 50%;
+    margin-top: 5px;
 }
 
 .normaltext{
@@ -20,15 +39,31 @@
     padding: 3px 10px;
 }
 
+.textholder{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid black; */
+    width: 340px;
+    height: 60px;
+    margin-top: 5px;
+}
+
 .textwithimg{
+    margin: 0;
     font-size: medium;
     padding: 3px 10px;
-    margin-top: 20px;
-    width: 462px;
+    margin-top: 14px;
+    /* border: 2px solid black; */
+    width: 330px;
+}
+
+.postholder{
+    height: 60px;
+    /* border: 2px solid black; */
+    width: 65px;
 }
 
 .image{
     height: 50px;
     width: 50px;
-    margin-left: 200px;
 }
