@@ -39,7 +39,9 @@ const Navbar = () => {
                 <div className="wrapper">
                     {/* <!-- Made a logo container  --> */}
                     <div className="logo">
+                        <a href="/#" rel="noopener noreferrer">
                         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" />
+                        </a>
                     </div>
                     {/* <!-- Logo container ends here --> */}
 

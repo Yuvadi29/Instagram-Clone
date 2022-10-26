@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/home/Homepage/Homepage.js';
-import Stories from './components/stories/stories';
+import Home from './components/home/Homepage/Homepage';
 import Profile from './components/profile/profile';
 import Messages from './components/messages/messages';
 import Likes from './components/likes/likes';
@@ -15,7 +14,6 @@ const App = () => {
       <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/stories' element={<Stories />} />
           <Route path='/profile' element={<Profile />} />
           <Route path='/messages' element={<Messages />} />
           <Route path='/likes' element={<Likes />} />

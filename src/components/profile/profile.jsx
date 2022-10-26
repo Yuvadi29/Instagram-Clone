@@ -2,7 +2,6 @@ import React from 'react';
 import './profile.css';
 import '../../media/jamesbond.png';
 
-
 const Profile = () => {
 
   const posts = document.querySelectorAll('.gallery-item');
