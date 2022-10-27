@@ -298,11 +298,8 @@ img {
 }
 
 /*
-
 The following code will only run if your browser supports CSS grid.
-
 Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
-
 */
 
 @supports (display: grid) {

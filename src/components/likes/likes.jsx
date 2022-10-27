@@ -92,7 +92,7 @@ const Likes = () => {
 
         <div className="singlenoti">
           <div class="profileholder">
-            <img className="profile" src="image bottom-pv-image" src="https://images.unsplash.com/photo-1597012820205-4ca307e7986c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80" alt="" />
+            <img className="profile" src="https://images.unsplash.com/photo-1597012820205-4ca307e7986c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80" alt="" />
           </div>
 
           <div class="textholder">

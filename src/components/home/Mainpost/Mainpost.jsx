@@ -19,8 +19,6 @@ function postComment(commentData) {
             <p style={{ "fontWeight": "bold" }} className="comment_account">{commentData.username}</p>
             <p className='comment' >{commentData.comment}</p>
         </div>
-
-
     )
 }
 
