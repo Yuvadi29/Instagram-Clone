@@ -92,7 +92,7 @@ header {
 
     .feed-heading {
         padding: 20px 0 20px 0;
-        font-size: 0.9em;
+        font-size: 2em;
         font-weight: bold;
         color: rgba(0, 0, 0, 0.562);
     }
@@ -102,10 +102,14 @@ header {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(3, 1fr);
+        /* width: 300px;
+        height: 300px; */
     }
 
     .image {
-        width: 22vw;
+        /* width: 22vw; */
+        width: 300px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;

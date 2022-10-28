@@ -1,14 +1,31 @@
+import { useState } from "react";
 import "./ConversationPerson.css";
+import Avatar from '@mui/material/Avatar';
+import user from "./account_img"
 
-export const ConversationPerson = () => {
+
+
+
+function display_account(user) {
     return (
-        <div className="Conversation">
-            <img
-                className="ConversationImg"
-                src="https://img.freepik.com/free-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?size=626&ext=jpg"
-                alt="profile_img"
-            />
-            <span className="ConversationName">Kedar Malap</span>
+        <div className="commentslist" >
+            <Avatar style={{ "width": "50px", "height": "50px" }} src={`${user.img}`} className='nav_icon_element' />
+            <span className="ConversationName">{user.Uname}</span>
         </div>
+    )
+}
+export const ConversationPerson = () => {
+
+
+    return (
+        <>
+
+
+            <div className="display_account">
+                {
+                    user.map(display_account)
+                }
+            </div>
+        </>
     );
 };
