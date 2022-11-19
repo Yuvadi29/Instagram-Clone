@@ -2,7 +2,7 @@ const commentData = [
     {
         key : "23",
         username : "theashish" ,
-        comment : "It is very beutiful scenerio"
+        comment : "It is very beutiful scenerio", 
     
       },
     {

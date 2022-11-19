@@ -3,13 +3,13 @@ import Grid from '@mui/material/Grid';
 import "./Maincontent.css";
 import Stories from "../Stories/Stories";
 import Mainpost from "../Mainpost/Mainpost";
-import user from "./user"
+import user from "./user";
 import Infosection from '../Infosection/Infosection';
 import Suggestion from '../Suggestion/Suggestion';
 
 function userData(user) {
   return (
-    <Mainpost userkey={user.key} Uname={user.Uname} like={user.like} comment={user.comments} posting={user.post} />
+    <Mainpost userkey={user.key} Uname={user.Uname} like={user.like} caption={user.caption} comment={user.comments} posting={user.post} />
 
   );
 }
@@ -51,4 +51,4 @@ function Maincontent() {
 }
 
 
-export default Maincontent
+export default Maincontent;
