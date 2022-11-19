@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Grid from '@mui/material/Grid';
 import "./Maincontent.css";
 import Stories from "../Stories/Stories";
